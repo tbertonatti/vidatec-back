@@ -1,0 +1,23 @@
+{
+  "production": {
+    "todosDB": "./config/todos.json",
+    "secretKey": "changeme",
+    "username": "admin",
+    "password": "admin",
+    "port": 8000
+  },
+  "development": {
+    "todosDB": "./config/todos-dev.json",
+    "secretKey": "changeme",
+    "username": "admin",
+    "password": "admin",
+    "port": 8000
+  },
+  "test": {
+    "todosDB": "./config/todos-test.json",
+    "secretKey": "changeme",
+    "username": "test",
+    "password": "test",
+    "port": 8000
+  }
+}
